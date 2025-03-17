@@ -1,15 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Personal Website of Kafai Ng</title>
-    </head>
-    <body>
-      <h1>Personal Website of Kafai Ng</h1>
-      <h2>Info</h2>
-      <p>
-        It's me. 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafai Ng - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: ;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f4f4f4;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #b02323;
+            padding-bottom: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kafai Ng</h1>
+        <p>Engineering | Art </p>
+    </header>
 
-        Gradutated UG mechanical engineering. In my last year my capstone project was on an autonomous drone based on Lidar control. Crashed about 40 times but in the last time it worked.
-      </p>
-    </body>
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>Someone with a supposed background in mechanical engineering
+          
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Past Objects</h2>
+        <div class="project">
+            <h3>Object: Robotic Fish Fittings </h3>
+            <p>Associated with SNAPP Ocean Data Solutions Ltd. 
+            </p>
+        </div>
+        <div class="project">
+            <h3>Object: LiDAR Based UAS</h3>
+            <p>Part of University capstone project. Design of structure for a prototype autonomous UAV based on experimental </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ka-fai-ng-3a3859275/">Profile Page</a></p>
+        <p></p>        
+    </section>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
 </html>
